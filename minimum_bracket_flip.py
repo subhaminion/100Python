@@ -1,3 +1,12 @@
+# Given an expression with only ‘}’ and ‘{‘.
+# The expression may not be balanced.
+# Find minimum number of bracket reversals to make the expression balanced.
+# Input:  exp = "}{"
+# Output: 2
+# We need to change '}' to '{' and '{' to
+# '}' so that the expression becomes balanced, 
+# the balanced expression is '{}'
+
 class Stack:
 	def __init__(self):
 		self.items = []
