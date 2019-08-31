@@ -43,3 +43,28 @@
 # Hence the output is 2.
 
 
+# def fin_overlapping_events(events_list):
+# 	temp = []
+# 	for i in events_list:
+# 		temp.append(i.split(" "))
+
+# 	print(temp)
+
+
+
+
+
+# arr = ['4 5', '3 4', '5 6', '2 3']
+# fin_overlapping_events(arr)
+v
+ar = [[4,5],[3,4],[5,6],[2,3]]
+var.sort()
+lol = [{'start': i[0], 'end': i[1]} for i in var]
+print(var)
+final = []
+j = 1
+for i in range(len(var) - 1):
+	print(var[i][0], '-------', var[i+1][1])
+	print('--------------------')
+	if var[i][0] < var[i+1][1]:
+		print('--->', var[i])
