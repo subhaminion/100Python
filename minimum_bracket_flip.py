@@ -56,6 +56,6 @@ def count_min_reverse(expr):
 			n += 1
 
 	print(stack.show())
-	return (reduced_len / 2 + n % 2)
+	return (reduced_le n/ 2 + n % 2)
 
 print(count_min_reverse('{{{'))
