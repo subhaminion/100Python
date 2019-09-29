@@ -1,4 +1,4 @@
-def BinaryTre(r):
+def BinaryTree(r):
 	return [r, [], []]
 
 def insert_left(root, new_branch):
@@ -26,16 +26,8 @@ def get_left_child(root):
 	return root[2]
 
 
-r = BinaryTre(3)
-
-insert_left(r, 4)
-insert_left(r, 5)
-insert_right(r, 6)
-insert_right(r, 7)
-
-l = get_left_child(r)
-print(l)
-
-r = get_right_child(r)
-print(r)
-
+x = BinaryTree('a')
+insert_left(x,'b')
+insert_right(x,'c')
+insert_right(get_right_child(x),'d')
+insert_left(get_right_child(get_right_child(x)),'e')
